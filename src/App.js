@@ -2,11 +2,11 @@ import { Component } from 'react';
 import { CSSTransition } from 'react-transition-group';
 import ContactForm from './components/ContactForm/ContactForm';
 import Filter from './components/Filter/Filter';
-import baseTransitionStyles from './BaseTransitionStyles.module.css';
-import filterTransitionStyles from './FilterTransition.module.css';
-import notificationTransitionStyles from './components/Notification/NotificationTransition.module.css';
+import baseTransitionStyles from './transitionStyles/baseTransitionStyles.module.css';
+import filterTransitionStyles from './transitionStyles/filterTransition.module.css';
+import notificationTransitionStyles from './transitionStyles/notificationTransition.module.css';
 import ContactList from './components/ContactList/ContactList';
-import styles from './App.module.css';
+import styles from './transitionStyles/app.module.css';
 import Notification from './components/Notification/Notification';
 
 export default class App extends Component {

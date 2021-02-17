@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styles from './ContactList.module.css';
-import contactListTransition from './ContactListTransition.module.css';
+import contactListTransition from '../../transitionStyles/contactListTransition.module.css';
 import ContactListItem from '../ContactListItem/ContactListItem';
 
 export default function ContactList({ contacts, onDeleteButtonClick }) {
